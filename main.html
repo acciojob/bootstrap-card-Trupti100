@@ -1,16 +1,49 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Card Deck Example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<div class="container mt-5">
+    <div class="card-deck">
+        <div class="card bg-light">
+            <img class="card-img-top" src="https://vmrw8k5h.tinifycdn.com/news/wp-content/uploads/2017/07/ford-swimming.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Welcome to Sync5</h5>
+                <p class="card-text text-muted">New Features</p>
+                <p class="card-text">Mobile and Tablet support<br>With this new update you will be able to sync your work across a large number of platforms.</p>
+                <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+        </div>
+        <div class="card bg-light">
+            <div class="card-body">
+                <h5 class="card-title">Alert</h5>
+                <p class="card-text text-muted">Node Dead</p>
+                <p class="card-text">Node 5 (east-us) is offline for the last 12 days.</p>
+            </div>
+            <div class="card-footer">
+                <p class="text-muted">Last updated 12 mins ago</p>
+            </div>
+        </div>
+        <div class="card bg-light">
+            <div class="card-body">
+                <h5 class="card-title">President under Pressure</h5>
+                <p class="card-text text-muted">The US president is under pressure to respond to a widespread cyber-attack linked to China.</p>
+            </div>
+            <div class="card-footer">
+                <p class="text-muted">Last updated 12 mins ago</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
